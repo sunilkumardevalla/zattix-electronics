@@ -118,3 +118,8 @@ body .no-padding {
 .dropup:hover .dropbtn {
   background-color: #383838;
 }
+
+#footer-image {
+  height: 30px;
+  width: 30px;
+}
