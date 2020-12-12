@@ -18,6 +18,26 @@
   color: #d35266;
 }
 
+.nav-element {
+  color: #888888;
+  text-decoration: none;
+}
+
+.nav-element:hover {
+  color: #d35266;
+  text-decoration: none;
+}
+
+.profile-name {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-name:hover {
+  color: #d35266;
+  text-decoration: none;
+}
+
 .col-md-3 {
   display: inline-block;
   margin-left: -4px;
@@ -98,4 +118,3 @@ body .no-padding {
 .dropup:hover .dropbtn {
   background-color: #383838;
 }
-
