@@ -127,3 +127,8 @@ body .no-padding {
   height: 30px;
   width: 30px;
 }
+
+/* Search Page */
+.search-image {
+  height: 215px !important;
+}
