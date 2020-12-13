@@ -10,16 +10,12 @@
   color: white;
 }
 
-#white {
-  color: white;
-}
-
 .reddis-color {
   color: #d35266;
 }
 
 .nav-element {
-  color: #888888;
+  color: #888;
   text-decoration: none;
 }
 
@@ -29,7 +25,7 @@
 }
 
 .nav-element1 {
-  color: #888888;
+  color: #888;
   text-decoration: none;
 }
 
@@ -106,7 +102,7 @@ body .no-padding {
   bottom: 50px;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
