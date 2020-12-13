@@ -28,6 +28,16 @@
   text-decoration: none;
 }
 
+.nav-element1 {
+  color: #888888;
+  text-decoration: none;
+}
+
+.nav-element1:hover {
+  background-color: #d35266;
+  text-decoration: none;
+}
+
 .profile-name {
   color: white;
   text-decoration: none;
