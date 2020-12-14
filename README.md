@@ -2,6 +2,10 @@
 
 Shop electronics goods through online
 
+# Description
+
+The Capstone Project Aim is to Create an Electronics Shopping site Consist of a Main and Search Page including goods and respective messages along with prices, The page works best in Chrome, It includes HTML CSS and Bootstrap.
+
 ![screenshot](./assets/screenshots/main-laptop.png)
 ![screenshot](./assets/screenshots/main-footer.png)
 ![screenshot](./assets/screenshots/main-mobile.png)
