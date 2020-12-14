@@ -47,6 +47,10 @@ https://github.com/DsunilK/zattix-electronics.git
 - Linkedin: [@DsunilK](https://www.linkedin.com/in/dsunilk/)
 - Twiter: [@DsunilK](https://twitter.com/D_sunil_K)
 
+## Video Explanation of Project
+
+[Loom Video Link](https://www.loom.com/share/c63ce145ef164901b0b435bd26b6c77a)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
