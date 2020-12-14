@@ -2,13 +2,17 @@
 
 Shop electronics goods through online
 
-![screenshot](./assets/Screen-Shot-desk.png)
-![screenshot](./assets/Screen-Shot-ipad.png)
+![screenshot](./assets/screenshots/main-laptop.png)
+![screenshot](./assets/screenshots/main-footer.png)
+![screenshot](./assets/screenshots/main-mobile.png)
+![screenshot](./assets/screenshots/search-laptop.png)
+![screenshot](./assets/screenshots/search-ipad.png)
+![screenshot](./assets/screenshots/search-mobile.png)
 
 ## Built With
 
 - HTML
-- CSS (flexbox, grid)
+- CSS (flex box, grid)
 - Bootstrap
 
 ## Live Demo

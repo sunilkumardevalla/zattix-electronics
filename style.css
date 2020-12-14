@@ -1,14 +1,23 @@
-body {
-  overflow-x: hidden;
-  width: 100%;
-}
+/* Colors */
 
 .bg-reddis {
   background-color: #d35266;
 }
 
+#red {
+  color: #d35266;
+}
+
+#red1 {
+  color: #d35266;
+}
+
 .bg-nav {
   background-color: #383838;
+}
+
+.slide-color {
+  color: #383838;
 }
 
 .white {
@@ -49,41 +58,9 @@ body {
   text-decoration: none;
 }
 
-.col-md-3 {
-  display: inline-block;
-  margin-left: -4px;
-}
-
-.col-md-3 img {
-  width: 100%;
-  height: auto;
-}
-
-body .carousel-indicators li {
-  background-color: red;
-}
-
 body .carousel-control-prev-icon,
 body .carousel-control-next-icon {
   background-color: red;
-}
-
-body .no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.select-store {
-  border: medium none;
-  color: #5b5a5a;
-  font-family: UNIV-C, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  height: 32px;
-  line-height: 16px;
-  padding: 3px;
-  vertical-align: middle;
-  width: 186px;
 }
 
 /* Dropup Button */
@@ -142,6 +119,7 @@ body .no-padding {
 /* Search Page */
 .search-image {
   height: 215px !important;
+  max-width: 260px;
 }
 
 @media screen and (min-width: 240px) and (max-width: 760px) {
@@ -149,7 +127,144 @@ body .no-padding {
     display: none;
   }
 
-  body {
-    overflow-x: hidden;
+  .search-image {
+    height: 215px !important;
+    max-width: 330px !important;
+  }
+}
+
+/* Carsoul Effect */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Show 4th slide on md if col-md-4 */
+  .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Show 3rd slide on sm if col-sm-6 */
+  .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-right: 0;
+  }
+
+  /* show 2 items */
+  .carousel-inner .active + .carousel-item {
+    display: block;
+  }
+
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* farthest right hidden item must be also positioned for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+}
+
+/* MD */
+@media (min-width: 768px) {
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+  }
+
+  /* right or prev direction */
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+  }
+
+  /* show 3rd of 3 item slide */
+
+  /* left or forward direction */
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* LG */
+@media (min-width: 991px) {
+  /* show 4th item */
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+    display: block;
+  }
+
+  /* left or forward direction */
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  /* right or prev direction //t - previous slide direction last item animation fix */
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+  }
+
+  /* Show 5th slide on lg if col-lg-3 */
+  .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -25%; /* change this with javascript in the future */
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+    transition: none;
   }
 }
