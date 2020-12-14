@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 .bg-reddis {
   background-color: #d35266;
 }
@@ -137,4 +142,14 @@ body .no-padding {
 /* Search Page */
 .search-image {
   height: 215px !important;
+}
+
+@media screen and (min-width: 240px) and (max-width: 760px) {
+  .hidden {
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
 }
