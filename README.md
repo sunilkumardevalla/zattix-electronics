@@ -17,7 +17,7 @@ Shop electronics goods through online
 
 ## Live Demo
 
-[Live Demo Link](https://kimothokamau.github.io/newsweek-bootstrap/)
+[Live Demo Link](https://dsunilk.github.io/zattix-electronics/)
 
 ## Getting Started
 
