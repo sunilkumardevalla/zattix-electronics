@@ -4,11 +4,11 @@
   background-color: #d35266;
 }
 
-#red {
+.red {
   color: #d35266;
 }
 
-#red1 {
+.red1 {
   color: #d35266;
 }
 
@@ -46,6 +46,19 @@
 .nav-element1:hover {
   background-color: #d35266;
   text-decoration: none;
+}
+
+.car-card {
+  max-width: 768px;
+}
+
+.car-image {
+  max-width: 200px;
+  height: 100%;
+}
+
+.car-image1 {
+  height: 250px;
 }
 
 .profile-name {
@@ -177,7 +190,7 @@ body .carousel-control-next-icon {
   top: 0;
 }
 
-#footer-image {
+.footer-image {
   height: 30px;
   width: 30px;
 }
@@ -195,7 +208,6 @@ body .carousel-control-next-icon {
 
   .search-image {
     height: 215px;
-    max-width: 330px;
   }
 
   .carousel-image {
@@ -208,11 +220,7 @@ body .carousel-control-next-icon {
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* Show 4th slide on md if col-md-4 */
-  .carousel-inner
-    .active.col-md-4.carousel-item
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
     position: absolute;
     top: 0;
     right: -33.3333%;
@@ -224,10 +232,7 @@ body .carousel-control-next-icon {
 
 @media (min-width: 576px) and (max-width: 768px) {
   /* Show 3rd slide on sm if col-sm-6 */
-  .carousel-inner
-    .active.col-sm-6.carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
     position: absolute;
     top: 0;
     right: -50%;
@@ -256,11 +261,8 @@ body .carousel-control-next-icon {
     visibility: visible;
   }
 
-  .carousel-inner
-    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .carousel-inner
-    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
-    + .carousel-item {
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
     transition: none;
   }
 
@@ -287,10 +289,7 @@ body .carousel-control-next-icon {
   }
 
   /* right or prev direction */
-  .carousel-item-prev.carousel-item-right
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
     position: relative;
     transform: translate3d(100%, 0, 0);
     visibility: visible;
@@ -300,19 +299,13 @@ body .carousel-control-next-icon {
   /* show 3rd of 3 item slide */
 
   /* left or forward direction */
-  .carousel-item-next.carousel-item-left
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
     position: relative;
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
 
-  .carousel-inner
-    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
-    + .carousel-item
-    + .carousel-item {
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
     transition: none;
   }
 
@@ -330,22 +323,14 @@ body .carousel-control-next-icon {
   }
 
   /* left or forward direction */
-  .carousel-item-next.carousel-item-left
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
     position: relative;
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
 
   /* right or prev direction //t - previous slide direction last item animation fix */
-  .carousel-item-prev.carousel-item-right
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
     position: relative;
     transform: translate3d(100%, 0, 0);
     visibility: visible;
@@ -353,12 +338,7 @@ body .carousel-control-next-icon {
   }
 
   /* Show 5th slide on lg if col-lg-3 */
-  .carousel-inner
-    .active.col-lg-3.carousel-item
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
     position: absolute;
     top: 0;
     right: -25%; /* change this with javascript in the future */
@@ -367,11 +347,7 @@ body .carousel-control-next-icon {
     visibility: visible;
   }
 
-  .carousel-inner
-    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
-    + .carousel-item
-    + .carousel-item
-    + .carousel-item {
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
     transition: none;
   }
 }
