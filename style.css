@@ -83,7 +83,7 @@ body .carousel-control-next-icon {
   position: absolute;
   bottom: 50px;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 100px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -196,6 +196,11 @@ body .carousel-control-next-icon {
   .search-image {
     height: 215px !important;
     max-width: 330px !important;
+  }
+
+  .carousel-image {
+    max-width: 300px;
+    height: 100%;
   }
 }
 
