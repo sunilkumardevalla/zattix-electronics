@@ -53,7 +53,7 @@ https://github.com/DsunilK/zattix-electronics.git
 
 ## Video Explanation of Project
 
-[Loom Video Link](https://www.loom.com/share/c63ce145ef164901b0b435bd26b6c77a)
+[Loom Video Link](https://www.loom.com/share/c20d15f6c42a48d18e2be51740b18fe3)
 
 ## 🤝 Contributing
 
