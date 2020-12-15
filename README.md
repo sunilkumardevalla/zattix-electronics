@@ -21,7 +21,7 @@ The Capstone Project Aim is to Create an Electronics Shopping site Consist of a 
 
 ## Live Demo
 
-[Live Demo Link](https://dsunilk.github.io/zattix-electronics/)
+[Live Demo Link](https://dsunilk.github.io/zattix-electronics/.)
 
 ## Getting Started
 
